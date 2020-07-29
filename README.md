@@ -1,7 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Deploy
+## Resultados (Aula 01)
 https://vanflix.vercel.app/
+
+![index](https://github.com/vansoufer/vanflix/blob/master/vanflix.png)
 
 
 ## Available Scripts
