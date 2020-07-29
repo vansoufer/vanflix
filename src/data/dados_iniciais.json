@@ -1,0 +1,159 @@
+{
+  "categorias": [
+    {
+      "titulo": "Stranger Things",
+      "link": "https://www.youtube.com/watch?v=j2EXzZ-R_NE",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Soundtrack Stranger Things",
+        "url": "https://www.youtube.com/watch?v=j2EXzZ-R_NE"
+      },
+      "videos": [
+        {
+          "titulo": "Soundtracks, trailers e + ",
+          "url": "https://www.youtube.com/watch?v=6n8B0li7HYo"
+        },
+        {
+          "titulo": "Peter Gabriel - Heroes",
+          "url": "https://www.youtube.com/watch?v=36QtIVQRsZg&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW"
+        },
+        {
+          "titulo": "Hurricane Express - When You See Me",
+          "url": "https://www.youtube.com/watch?v=1OER2LRLtAA&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=2"
+        },
+        {
+          "titulo": "Jackie Wilson - (Your Love Keeps Lifting Me)",
+          "url": "https://www.youtube.com/watch?v=fnovhq6QJHY&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=4"
+        },
+        {
+          "titulo": "Yello - Goldrush Two",
+          "url": "https://www.youtube.com/watch?v=87oHH-hpB8U&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=5"
+        }
+      ]
+    },
+    {
+      "titulo": "The expanse",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Soundtrack The expanse",
+        "url": "https://www.youtube.com/watch?v=Rr7w3D1spVI&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk"
+      },
+      "videos": [
+        {
+          "titulo": "Someday",
+          "url": "https://www.youtube.com/watch?v=Rr7w3D1spVI&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk"
+        },
+        {
+          "titulo": "Heat Her Up",
+          "url": "https://www.youtube.com/watch?v=V44uJKyS5LM&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=2"
+        },
+        {
+          "titulo": "Earth Must Come First",
+          "url": "https://www.youtube.com/watch?v=mEl8Mg3hOVg&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=3"
+        },
+        {
+          "titulo": "Lost",
+          "url": "https://www.youtube.com/watch?v=WNB8S3pZWmQ&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=4"
+        }
+      ]
+    },
+    {
+      "titulo": "Black Mirror",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Soundtrack Black Mirror",
+        "url": "https://www.youtube.com/watch?v=G_K9xsSdgMs&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH"
+      },
+      "videos": [
+        {
+          "titulo": "Bee Gees - How Deep Is Your Love ",
+          "url": "https://www.youtube.com/watch?v=NO_B2qT6KEI&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=3"
+        },
+        {
+          "titulo": "Kidsmoke - Take Me To The River",
+          "url": "https://www.youtube.com/watch?v=nuYNYbG45gM&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=39"
+        },
+        {
+          "titulo": "The Smiths - Panic",
+          "url": "https://www.youtube.com/watch?v=wMykYSQaG_c&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=44"
+        },
+        {
+          "titulo": "Sahara Hotnights - Alright Alright",
+          "url": "https://www.youtube.com/watch?v=y1avnmBG3kA&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=38"
+        }
+      ]
+    },
+    
+    {
+      "titulo": "Mr Robot",
+      "cor": "red",
+      "link_extra": {
+        "text": "Soundtrack Mr Robot",
+        "url": "https://www.youtube.com/watch?v=4NZdggNUvq0&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH"
+      },
+      "videos": [
+        {
+          "titulo": "New Brave",
+          "url": "https://www.youtube.com/watch?v=tJxTb54RT1c&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=3"
+        },
+        {
+          "titulo": "Fist of God",
+          "url": "https://www.youtube.com/watch?v=mQFQFwy8Cgo&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=4"
+        },
+        {
+          "titulo": "Obsession",
+          "url": "https://www.youtube.com/watch?v=iAn1FmW7ypE&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=6"
+        },
+        {
+          "titulo": "Obsession",
+          "url": "https://www.youtube.com/watch?v=iAn1FmW7ypE&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=6"
+        }
+      ]
+    },
+    {
+      "titulo": "Trailers de series",
+      "cor": "#6b5be2",
+      
+      "videos": [
+        {
+          "titulo": "Ragnarock",
+          "url": "https://www.youtube.com/watch?v=i2qDt5D8RSs"
+        },
+        {
+          "titulo": "Warrior Nun",
+          "url": "https://www.youtube.com/watch?v=DohNY3d8M6I"
+        },
+        {
+          "titulo": "Dani who?",
+          "url": "https://www.youtube.com/watch?v=efN_0jOVfPw&t=4s"
+        },
+        {
+          "titulo": "The Outsider",
+          "url": "https://www.youtube.com/watch?v=eNDKWr3Xmjk"
+        }
+      ]
+    },
+    {
+      "titulo": "Trailers de Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    }
+  ]
+}
