@@ -41,9 +41,13 @@ export const VideoCardList = styled.ul`
   display: flex;
   overflow-x: auto;
   flex-direction: row;
-  
-  li {
+  &:hover,
+  &:focus {
+    opacity: .5;
     margin-right: 16px;
+  }
+  li {
+    margin-right: 56px;
   }
 `;
 
