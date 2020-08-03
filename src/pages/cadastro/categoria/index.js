@@ -47,8 +47,8 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
-        {values.nome}
+        Cadastro de Categoria: 
+         {values.nome}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
@@ -64,7 +64,7 @@ function CadastroCategoria() {
       >
 
         <FormField
-          label="Nome da Categoria"
+          label="Nome da Categoria "
           type="text"
           name="nome"
           value={values.nome}
@@ -72,7 +72,7 @@ function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição:"
+          label="Descrição "
           type="????"
           name="descricao"
           value={values.descricao}
