@@ -1,196 +1,202 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Stranger Things",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Soundtrack Stranger Things",
-          "url": "https://www.youtube.com/watch?v=j2EXzZ-R_NE"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "The expanse",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Soundtrack The expanse",
-          "url": "https://www.youtube.com/watch?v=Rr7w3D1spVI&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Black Mirror",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Soundtrack Black Mirror",
-          "url": "https://www.youtube.com/watch?v=G_K9xsSdgMs&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Mr Robot",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Soundtrack Mr Robot",
-          "url": "https://www.youtube.com/watch?v=4NZdggNUvq0&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH"
-        }
-      },
-      {
-        "id": 6,
-        "titulo": "Series",
-        "cor": "orange"
-      },
-      {
-        "id": 7,
-        "titulo": "Filmes",
-        "cor": "red"
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Stranger Things",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Soundtrack Stranger Things",
+        "url": "https://www.youtube.com/watch?v=j2EXzZ-R_NE"
       }
-    ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "Peter Gabriel - Heroes",
-        "url": "https://www.youtube.com/watch?v=36QtIVQRsZg&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "Hurricane Express - When You See Me",
-        "url": "https://www.youtube.com/watch?v=1OER2LRLtAA&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=2"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Jackie Wilson - (Your Love Keeps Lifting Me)",
-        "url": "https://www.youtube.com/watch?v=fnovhq6QJHY&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=4"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Yello - Goldrush Two",
-        "url": "https://www.youtube.com/watch?v=87oHH-hpB8U&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=5"
-      },
-      {
-        "id": 5,
-        "categoriaId": 2,
-        "titulo": "Someday",
+    },
+    {
+      "id": 2,
+      "titulo": "The expanse",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Soundtrack The expanse",
         "url": "https://www.youtube.com/watch?v=Rr7w3D1spVI&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk"
-      },
-      {
-        "id": 6,
-        "categoriaId": 2,
-        "titulo": "Heat Her Up",
-        "url": "https://www.youtube.com/watch?v=V44uJKyS5LM&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=2"
-      },
-      {
-        "id": 7,
-        "categoriaId": 2,
-        "titulo": "Earth Must Come First",
-        "url": "https://www.youtube.com/watch?v=mEl8Mg3hOVg&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=3"
-      },
-      {
-        "id": 8,
-        "categoriaId": 2,
-        "titulo": "Lost",
-        "url": "https://www.youtube.com/watch?v=WNB8S3pZWmQ&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=4"
-      },
-      {
-        "id": 9,
-        "categoriaId": 3,
-        "titulo": "Bee Gees - How Deep Is Your Love",
-        "url": "https://www.youtube.com/watch?v=NO_B2qT6KEI&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=3"
-      },
-      {
-        "id": 10,
-        "categoriaId": 3,
-        "titulo": "Kidsmoke - Take Me To The River",
-        "url": "https://www.youtube.com/watch?v=nuYNYbG45gM&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=39"
-      },
-      {
-        "id": 11,
-        "categoriaId": 3,
-        "titulo": "The Smiths - Panic",
-        "url": "https://www.youtube.com/watch?v=wMykYSQaG_c&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=44"
-      },
-      {
-        "id": 12,
-        "categoriaId": 3,
-        "titulo": "Sahara Hotnights - Alright Alright",
-        "url": "https://www.youtube.com/watch?v=y1avnmBG3kA&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=38"
-      },
-      {
-        "id": 13,
-        "categoriaId": 4,
-        "titulo": "New Brave",
-        "url": "https://www.youtube.com/watch?v=tJxTb54RT1c&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=3"
-      },
-      {
-        "id": 14,
-        "categoriaId": 4,
-        "titulo": "Fist of God",
-        "url": "https://www.youtube.com/watch?v=mQFQFwy8Cgo&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=4"
-      },
-      {
-        "id": 15,
-        "categoriaId": 4,
-        "titulo": "Obsession",
-        "url": "https://www.youtube.com/watch?v=iAn1FmW7ypE&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=6"
-      },
-      {
-        "id": 16,
-        "categoriaId": 4,
-        "titulo": "Open Tales",
-        "url": "https://www.youtube.com/watch?v=z1hWjjigFpI&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=7"
-      },
-      {
-        "id": 21,
-        "categoriaId": 5,
-        "titulo": "Ragnarock",
-        "url": "https://www.youtube.com/watch?v=i2qDt5D8RSs"
-      },
-      {
-        "id": 22,
-        "categoriaId": 5,
-        "titulo": "Warrior Nun",
-        "url": "https://www.youtube.com/watch?v=DohNY3d8M6I"
-      },
-      {
-        "id": 23,
-        "categoriaId": 5,
-        "titulo": "Dani who?",
-        "url": "https://www.youtube.com/watch?v=efN_0jOVfPw&t=4s"
-      },
-      {
-        "id": 24,
-        "categoriaId": 5,
-        "titulo": "The Outsider",
-        "url": "https://www.youtube.com/watch?v=eNDKWr3Xmjk"
-      },
-      {
-        "id": 17,
-        "categoriaId": 6,
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-      },
-      {
-        "id": 18,
-        "categoriaId": 6,
-        "titulo": "Gattaca",
-        "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-      },
-      {
-        "id": 19,
-        "categoriaId": 6,
-        "titulo": "A Chegada",
-        "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-      },
-      {
-        "id": 20,
-        "categoriaId": 6,
-        "titulo": "Feitiço do Tempo",
-        "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
       }
-    ]
-  }
+    },
+    {
+      "id": 3,
+      "titulo": "Black Mirror",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Soundtrack Black Mirror",
+        "url": "https://www.youtube.com/watch?v=G_K9xsSdgMs&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Mr Robot",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Soundtrack Mr Robot",
+        "url": "https://www.youtube.com/watch?v=4NZdggNUvq0&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Series",
+      "cor": "orange"
+    },
+    {
+      "id": 6,
+      "titulo": "Filmes",
+      "cor": "red"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Soundtracks e trailers das suas séries e filmes favoritos!",
+      "url": "https://www.youtube.com/watch?v=6n8B0li7HYo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Peter Gabriel - Heroes",
+      "url": "https://www.youtube.com/watch?v=36QtIVQRsZg&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Hurricane Express - When You See Me",
+      "url": "https://www.youtube.com/watch?v=1OER2LRLtAA&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=2"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Jackie Wilson - (Your Love Keeps Lifting Me)",
+      "url": "https://www.youtube.com/watch?v=fnovhq6QJHY&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=4"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Yello - Goldrush Two",
+      "url": "https://www.youtube.com/watch?v=87oHH-hpB8U&list=PLDisKgcnAC4TgzW59j-PfEa3A1ZYtlbCW&index=5"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Someday",
+      "url": "https://www.youtube.com/watch?v=Rr7w3D1spVI&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Heat Her Up",
+      "url": "https://www.youtube.com/watch?v=V44uJKyS5LM&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=2"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Earth Must Come First",
+      "url": "https://www.youtube.com/watch?v=mEl8Mg3hOVg&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=3"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Lost",
+      "url": "https://www.youtube.com/watch?v=WNB8S3pZWmQ&list=PLohYzz4btpaSp69najDJvGO1sU6WELtgk&index=4"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "Bee Gees - How Deep Is Your Love",
+      "url": "https://www.youtube.com/watch?v=NO_B2qT6KEI&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=3"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Kidsmoke - Take Me To The River",
+      "url": "https://www.youtube.com/watch?v=nuYNYbG45gM&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=39"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "The Smiths - Panic",
+      "url": "https://www.youtube.com/watch?v=wMykYSQaG_c&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=44"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Sahara Hotnights - Alright Alright",
+      "url": "https://www.youtube.com/watch?v=y1avnmBG3kA&list=PLRft9OwN1c9Ua0sQk-sVAFDdjVAUyl_TH&index=38"
+    },
+    {
+      "id": 14,
+      "categoriaId": 4,
+      "titulo": "New Brave",
+      "url": "https://www.youtube.com/watch?v=tJxTb54RT1c&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=3"
+    },
+    {
+      "id": 15,
+      "categoriaId": 4,
+      "titulo": "Fist of God",
+      "url": "https://www.youtube.com/watch?v=mQFQFwy8Cgo&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=4"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "Obsession",
+      "url": "https://www.youtube.com/watch?v=iAn1FmW7ypE&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=6"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Open Tales",
+      "url": "https://www.youtube.com/watch?v=z1hWjjigFpI&list=PL0Qv7jz5TaHPs786q70hOEEZTwegR4TxH&index=7"
+    },
+    {
+      "id": 18,
+      "categoriaId": 5,
+      "titulo": "Ragnarock",
+      "url": "https://www.youtube.com/watch?v=i2qDt5D8RSs"
+    },
+    {
+      "id": 19,
+      "categoriaId": 5,
+      "titulo": "Warrior Nun",
+      "url": "https://www.youtube.com/watch?v=DohNY3d8M6I"
+    },
+    {
+      "id": 20,
+      "categoriaId": 5,
+      "titulo": "Dani who?",
+      "url": "https://www.youtube.com/watch?v=efN_0jOVfPw&t=4s"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "The Outsider",
+      "url": "https://www.youtube.com/watch?v=eNDKWr3Xmjk"
+    },
+    {
+      "id": 22,
+      "categoriaId": 6,
+      "titulo": "Interestellar",
+      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+    },
+    {
+      "id": 23,
+      "categoriaId": 6,
+      "titulo": "Gattaca",
+      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+    },
+    {
+      "id": 24,
+      "categoriaId": 6,
+      "titulo": "A Chegada",
+      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+    },
+    {
+      "id": 25,
+      "categoriaId": 6,
+      "titulo": "Feitiço do Tempo",
+      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+    }
+  ]
+}
