@@ -11,12 +11,10 @@ function Home() {
 
   useEffect(() => {
     // http://localhost:8080/categorias?_embed=videos
-    categoriasRepository.getAllWithVideos()
+    categoriasRepository.getAllCategoriesWithVideos()
       .then((categoriasComVideos) => {
-        console.log(categoriasComVideos[0].videos[0]);
         setDadosIniciais(categoriasComVideos);
-      })
-      .catch((err) => {
+      }).catch((err) => {
         console.log(err.message);
       });
   }, []);
@@ -30,13 +28,13 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoTitle={categoria.videos[0].titulo}
+                url={categoria.videos[0].url}
+                videoDescription={categoria.videos[0].description}
               />
               <Carousel
-                ignoreFirstVideo
-                category={dadosIniciais[0]}
+                key={categoria.id}
+                category={categoria}
               />
             </div>
           );

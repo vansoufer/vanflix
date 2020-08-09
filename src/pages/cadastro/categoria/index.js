@@ -12,7 +12,7 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const {  values, handleChange, clearForm } = useForm(valoresIniciais);
 
   const [categorias, setCategorias] = useState([]);
 
@@ -20,7 +20,7 @@ function CadastroCategoria() {
     const URL_TOP = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080'
       : 'http://localhost:8080/categorias';
-    // E a ju ama variáveis
+   
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
@@ -28,31 +28,15 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Front End',
-    //       descricao: 'Uma categoria bacanudassa',
-    //       cor: '#cbd1ff',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Back End',
-    //       descricao: 'Outra categoria bacanudassa',
-    //       cor: '#cbd1ff',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
-  }, []);
+  }, [
+    values.titulo,
+  ]);
 
   return (
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.titulo}
+        {values.nome}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
@@ -66,52 +50,46 @@ function CadastroCategoria() {
       }}
       >
 
-        <FormField
-          label="Nome da Categoria"
+<FormField
+          type="text"
           name="titulo"
+          label="Título da Categoria"
           value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
-          label="Descrição"
           type="textarea"
           name="descricao"
+          label="Descrição"
           value={values.descricao}
           onChange={handleChange}
         />
 
         <FormField
-          label="Cor"
           type="color"
           name="cor"
+          label="Cor"
           value={values.cor}
           onChange={handleChange}
         />
 
-        <Button type="submit">
+        <Button to="">
           Cadastrar
         </Button>
       </form>
 
       {categorias.length === 0 && (
         <div>
-          {/* Cargando... */}
-          Loading...
+          Carregando...
         </div>
       )}
 
       <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.id}`}>
-            {categoria.titulo}
-          </li>
-        ))}
+        {categorias.map((categoria) => <li key={`${categoria.titulo}`}>{categoria.titulo}</li>)}
       </ul>
 
-      <Link to="/">
-        Ir para home
-      </Link>
+      <Link to="/">Ir para Home</Link>
     </PageDefault>
   );
 }

@@ -14,7 +14,7 @@ function getAll() {
     });
 }
 
-function getAllWithVideos() {
+function getAllCategoriesWithVideos() {
   return fetch(`${URL_CATEGORIES}?_embed=videos`)
     .then(async (respostaDoServidor) => {
       if (respostaDoServidor.ok) {
@@ -27,6 +27,6 @@ function getAllWithVideos() {
 }
 
 export default {
-  getAllWithVideos,
+  getAllCategoriesWithVideos,
   getAll,
 };

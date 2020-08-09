@@ -11,21 +11,25 @@ function useForm(valoresIniciais) {
     });
   }
 
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
+
 
   function clearForm() {
     setValues(valoresIniciais);
   }
 
+  function handleChange(infosDoEvento) {
+    setValue(
+      infosDoEvento.target.getAttribute('name'),
+      infosDoEvento.target.value
+    );
+  }
+
   return {
-    values,
-    handleChange,
+    
     clearForm,
+    handleChange,
+    values,
+    
   };
 }
 
